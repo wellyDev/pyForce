@@ -27,10 +27,10 @@ def interagir():
     chrome = input("Chrome Drive path: ")
     usuario = input("usuario: ")
     wordlist = input("Wordlist: ")
-    alvo = input("alvo: ")
-    name_user = input("input name: ")
-    name_pass = input("input password: ")
-    titulo = input("Titulo web: ")
+    alvo = input("url: ")
+    name_user = input("form user: ")
+    name_pass = input("form pass: ")
+    titulo = input("title: ")
     brute(chrome, usuario, wordlist, alvo, name_user, name_pass, titulo)
 
 def brute(chrome, usuario, wordlist, alvo, name_user, name_pass, titulo):
