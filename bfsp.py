@@ -28,8 +28,8 @@ def interagir():
     usuario = input("usuario: ")
     wordlist = input("Wordlist: ")
     alvo = input("url: ")
-    name_user = input("form user: ")
-    name_pass = input("form pass: ")
+    name_user = input("form user name: ")
+    name_pass = input("form pass name: ")
     titulo = input("title: ")
     brute(chrome, usuario, wordlist, alvo, name_user, name_pass, titulo)
 
